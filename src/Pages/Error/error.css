@@ -1,0 +1,45 @@
+.errorcontents {
+    height: auto;
+    background-image: url('../../Images/weed3.jpeg');
+}
+
+.error {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 150px;
+}
+
+.msg1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+}
+
+.msg2 {
+    color: white;
+    font-family: monospace;
+    padding: 0 140px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(5, 125, 65);
+    border-radius: 10px 10px;
+    border-width: 1px;
+    margin-top: 50px;
+}
+
+#homepage {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 680px) {
+    .msg2 {
+        padding: 0 30px;
+    }
+}
