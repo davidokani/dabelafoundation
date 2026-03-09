@@ -3,7 +3,7 @@ import "./footer.css";
 // import { Link } from "react-router-dom";
 import Logo2 from '../../Images/debela@4x.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
-import XIcon from '@mui/icons-material/X';
+// import XIcon from '@mui/icons-material/X';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
