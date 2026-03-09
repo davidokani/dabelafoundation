@@ -20,10 +20,10 @@ const Footer = () => {
                 <div className="footersection">
                     <ul>
                         <li className="footertitle">Company</li>
-                        <li className="footerrows">
+                        {/* <li className="footerrows">
                             <div id="footerrows">
                                 Blog</div>
-                        </li>
+                        </li> */}
                         <li className="footerrows">
                             <div id="footerrows">
                                 Privacy</div>
@@ -32,10 +32,9 @@ const Footer = () => {
                             <div id="footerrows">
                                 Terms</div>
                         </li>
-
                     </ul>
                 </div>
-                <div className="footersection">
+                {/* <div className="footersection">
                     <ul>
                         <li className="footertitle">Product</li>
                         <li className="footerrows">
@@ -51,19 +50,20 @@ const Footer = () => {
                                 Product3</div>
                         </li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="footersection">
                     <ul>
                         <li className="footertitle">Contacts</li>
+                        {/* <li className="footerrows">
+                            <div className="footerrowsicons mail"> <EmailIcon /></div>
+                            <a id="footerrows" href="mailto:support@dabelafoundation.org">
+                                support@dabelafoundation.org</a>
+                        </li> */}
                         <li className="footerrows">
-                            <div className="footerrowsicons mail"> <EmailIcon />    </div>
-                            <a id="footerrows" href="mailto:motherandchild@dabela.org">
-                                motherandchild@dabela.org</a>
-                        </li>
-                        <li className="footerrows">
-                            <div className="footerrowsicons mail"> <EmailIcon />    </div>
-                            <a id="footerrows" href="mailto:motherandchild@dabela.org">
-                                motherandchild@dabela.org</a>
+                            <div className="footerrowsicons mail"> <EmailIcon /></div>
+                            <a id="footerrows" href="mailto:dabelamotherandchildrenfoundation@gmail.com">
+                                motherandchildren@gmail.com
+                            </a>
                         </li>
                         <li className="footerrows">
                             <div className="footerrowsicons phone"> <PhoneIcon /></div>
@@ -75,13 +75,13 @@ const Footer = () => {
                 <div className="footersection">
                     <ul>
                         <li className="footertitle">Socials</li>
-                        <li className="footerrows">
+                        {/* <li className="footerrows">
                             <div className="footerrowsicons x">
                                 <XIcon />
                             </div>
                             <div id="footerrows">
                                 X</div>
-                        </li>
+                        </li> */}
                         <li className="footerrows">
                             <div className="footerrowsicons instagram"> <InstagramIcon /></div>
                             <div id="footerrows">

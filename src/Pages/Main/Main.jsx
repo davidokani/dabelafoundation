@@ -11,7 +11,8 @@ function Main() {
             <section className="hero">
                 <div className="hero-text">
                     <h1>
-                        Building Strong Mothers. Raising Stronger Children.
+                        {/* Building Strong Mothers. Raising Stronger Children. */}
+                        Empowering Mothers. Protecting Children. Transforming Futures.
                     </h1>
                     <p>
                         We are committed to providing healthcare access, education,
@@ -34,15 +35,10 @@ function Main() {
                 <div className="container">
                     <h2>Who We Are</h2>
                     <p>
-                        We are a non-profit foundation dedicated to strengthening families
-                        through maternal health support, child education initiatives,
-                        nutrition programs, and economic empowerment for mothers.
+                        Dabela Mother and Child Foundation is a nonprofit organization committed to supporting single mothers and protecting children growing up in vulnerable family environments.
                     </p>
                     <p>
-                        Since our founding, we have partnered with local communities,
-                        volunteers, medical professionals, and educators to ensure that
-                        every mother has access to care and every child has the opportunity
-                        to thrive.
+                        We focus on emotional healing, access to care, education, and economic empowerment to help families rebuild stability and hope. Our work is driven by the belief that when mothers are supported and children are protected, entire communities become stronger.
                     </p>
                 </div>
             </section>
@@ -59,25 +55,25 @@ function Main() {
                         <div className="step">
                             <span>01</span>
                             <h3>Identify</h3>
-                            <p>We work directly with communities to identify urgent maternal and child needs.</p>
+                            <p>We work with communities to identify mothers and children facing emotional, economic, and social vulnerability.</p>
                         </div>
 
                         <div className="step">
                             <span>02</span>
                             <h3>Intervene</h3>
-                            <p>Through healthcare, nutrition, and education programs, we deliver targeted solutions.</p>
+                            <p>Through healthcare support, counseling resources, mentorship, and education initiatives, we provide immediate and practical help.</p>
                         </div>
 
                         <div className="step">
                             <span>03</span>
                             <h3>Empower</h3>
-                            <p>We equip mothers with skills and resources to sustain long-term independence.</p>
+                            <p>We equip mothers with skills, resources, and opportunities that help them build stable and independent lives.</p>
                         </div>
 
                         <div className="step">
                             <span>04</span>
                             <h3>Transform</h3>
-                            <p>Generational cycles of poverty and vulnerability are permanently broken.</p>
+                            <p>Our long-term goal is to break generational cycles of hardship and create stronger futures for children and families.</p>
                         </div>
                     </div>
                 </div>
@@ -89,12 +85,10 @@ function Main() {
                     <div>
                         <h2>Where We Work</h2>
                         <p>
-                            We operate in rural and underserved communities where access to
-                            maternal healthcare and child education remains critically limited.
+                            We currently operate in Nigeria, working with underserved communities where mothers and children face economic hardship, emotional trauma, and limited access to resources.
                         </p>
                         <p>
-                            By partnering with local leaders and professionals, we ensure
-                            culturally aligned and community-driven impact.
+                            Through partnerships with volunteers, educators, healthcare professionals, and community leaders, we aim to create meaningful and lasting impact.
                         </p>
                     </div>
 
@@ -112,18 +106,18 @@ function Main() {
 
                     <div className="emotion-grid">
                         <div>
-                            <h3>Every 2 Minutes</h3>
-                            <p>A preventable pregnancy-related complication threatens a mother’s life.</p>
+                            <h3>Broken Homes Affect Millions</h3>
+                            <p>Many children grow up without emotional stability, guidance, or support systems.</p>
                         </div>
 
                         <div>
-                            <h3>Millions of Children</h3>
-                            <p>Grow up without access to safe nutrition or consistent education.</p>
+                            <h3>Single Mothers Face Heavy Burdens</h3>
+                            <p>Many mothers struggle to provide stability and opportunity while raising children alone.</p>
                         </div>
 
                         <div>
-                            <h3>One Intervention</h3>
-                            <p>Can change the trajectory of an entire family for generations.</p>
+                            <h3>One Intervention Matters</h3>
+                            <p>With the right support, a mother can rebuild her life and a child can change their future.</p>
                         </div>
                     </div>
                 </div>
@@ -172,32 +166,35 @@ function Main() {
                         <div className="card">
                             <h3>Maternal Healthcare</h3>
                             <p>
-                                Free prenatal checkups, maternal education workshops,
-                                and medical outreach services for underserved women.
+                                Medical outreach programs and health support initiatives that connect underserved women and children with essential healthcare services, screenings, and wellness resources.
                             </p>
                         </div>
 
                         <div className="card">
                             <h3>Child Education</h3>
                             <p>
-                                School sponsorships, mentorship programs, and
-                                access to learning materials for children in need.
+                                School sponsorships, mentorship programs, and access to learning materials for children in need.
                             </p>
                         </div>
 
                         <div className="card">
-                            <h3>Nutrition & Feeding</h3>
+                            <h3>Feeding</h3>
                             <p>
-                                Community feeding initiatives and sustainable
-                                nutrition programs for mothers and children.
+                                Community feeding initiatives that provide meals and essential food support for mothers and children, helping ensure that no child has to learn or grow on an empty stomach.
                             </p>
                         </div>
 
                         <div className="card">
                             <h3>Economic Empowerment</h3>
                             <p>
-                                Skills training and micro-support programs
-                                enabling mothers to build independent livelihoods.
+                                Skills training and micro-support programs enabling mothers to build independent livelihoods.
+                            </p>
+                        </div>
+
+                        <div className="card">
+                            <h3>Emotional Support & Mentorship</h3>
+                            <p>
+                                Support groups, mentorship programs, and emotional healing resources for mothers and children navigating difficult family circumstances.
                             </p>
                         </div>
                     </div>
@@ -210,11 +207,9 @@ function Main() {
                     <h2>Stories of Hope</h2>
                     <div className="testimonial">
                         <p>
-                            “Before finding this foundation, I had no access to proper
-                            healthcare during pregnancy. Today, my child is healthy,
-                            and I run a small tailoring business through their support.”
+                            “Our mission is to restore dignity, strengthen families, and ensure that no child grows up without hope.”
                         </p>
-                        <span>— Beneficiary Mother</span>
+                        <span>— Dabela Mother and Child Foundation</span>
                     </div>
                 </div>
             </section>
@@ -226,18 +221,66 @@ function Main() {
                     <div className="grid">
                         <div className="card centered">
                             <h3>Donate</h3>
-                            <p>Your contribution directly funds life-saving programs.</p>
+                            <p>Help us provide life-changing support to mothers and children in vulnerable communities.</p>
                         </div>
 
                         <div className="card centered">
                             <h3>Volunteer</h3>
-                            <p>Support outreach programs and empower communities.</p>
+                            <p>Join our network of volunteers working to strengthen families and uplift communities.</p>
                         </div>
 
                         <div className="card centered">
                             <h3>Partner With Us</h3>
-                            <p>Collaborate to expand our reach and impact.</p>
+                            <p>Organizations, professionals, and community leaders can collaborate with us to expand impact.</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FOUNDERS */}
+            <section className="section founders">
+                <div className="container">
+                    <h2>Our Founders</h2>
+                    <p className="section-sub">
+                        Dabela Mother and Child Foundation was inspired by lived experiences and a deep understanding of the challenges many mothers and children face in unstable family environments. With a vision to create programs that empower women, restore dignity, and ensure that children have the support they need to build better futures.
+                    </p>
+
+                    <div className="founders-grid">
+
+                        {/* Founder 1 */}
+                        <div className="founder-card">
+
+                            {/* <div className="founder-image">
+                                <img src={HeroImage} alt="Founder Name" />
+                            </div> */}
+
+                            <div className="founder-info">
+                                <h3>Ladi Akubo</h3>
+                                <span className="founder-role">Co-Founder</span>
+
+                                <p>
+                                    Committed to supporting mothers and protecting children by creating programs that strengthen families, restore dignity, and open pathways to better futures.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        {/* Founder 2 */}
+                        <div className="founder-card">
+
+                            {/* <div className="founder-image">
+                                <img src={HeroImage} alt="Founder Name" />
+                            </div> */}
+
+                            <div className="founder-info">
+                                <h3>Blessing Ojochide</h3>
+                                <span className="founder-role">Co-Founder</span>
+
+                                <p>
+                                    Believes that when mothers receive the support they need and children grow up in environments filled with guidance, care, and opportunity, entire communities can be transformed.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
