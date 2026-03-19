@@ -2,26 +2,49 @@ import React from "react";
 import "./main.css";
 import Footer from "../Footer/Footer";
 import HeroImage from "../../Images/home1.jpg";
+import Logo2 from '../../Images/debela@4x.png'
+import ProfileIcon from '../../Images/profileicon.jpg'
 
 function Main() {
+
+    const handleWhatsApp = (message) => {
+        const phoneNumber = "2349022242983";
+        const encodedMessage = encodeURIComponent(message);
+        const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+        window.open(url, "_blank");
+    };
+
     return (
         <div className="home">
+            {/* TOP LOGO BAR */}
+            <div className="top-logo">
+                <img src={Logo2} alt="Dabela Mother and Child Foundation" />
+            </div>
 
             {/* HERO */}
             <section className="hero">
                 <div className="hero-text">
                     <h1>
-                        {/* Building Strong Mothers. Raising Stronger Children. */}
                         Empowering Mothers. Protecting Children. Transforming Futures.
                     </h1>
                     <p>
-                        We are committed to providing healthcare access, education,
-                        nutrition, and empowerment programs to vulnerable mothers and
-                        children — creating sustainable futures for families and communities.
+                        We are committed to providing mentorship, education, economic empowerment, and community support programs to vulnerable mothers and children — creating sustainable futures for families and communities.
                     </p>
                     <div className="hero-buttons">
-                        <button className="btn-primary">Donate Now</button>
-                        <button className="btn-outline">Become a Volunteer</button>
+                        <button
+                            className="btn-primary"
+                            onClick={() =>
+                                handleWhatsApp("Hello, I would like to support your mission through donation.")
+                            }
+                        >Donate Now</button>
+                        <button
+                            className="btn-outline"
+                            onClick={() =>
+                                handleWhatsApp("Hi, I’m interested in becoming a volunteer.")
+                            }
+                        >
+                            Become a Volunteer</button>
                     </div>
                 </div>
 
@@ -35,7 +58,7 @@ function Main() {
                 <div className="container">
                     <h2>Who We Are</h2>
                     <p>
-                        Dabela Mother and Child Foundation is a nonprofit organization committed to supporting single mothers and protecting children growing up in vulnerable family environments.
+                        Dabela Mother and Child Foundation is a nonprofit organization committed to supporting mothers and protecting children growing up in vulnerable family environments.
                     </p>
                     <p>
                         We focus on emotional healing, access to care, education, and economic empowerment to help families rebuild stability and hope. Our work is driven by the belief that when mothers are supported and children are protected, entire communities become stronger.
@@ -93,7 +116,7 @@ function Main() {
                     </div>
 
                     <div className="map-box">
-                        <h3>120+ Communities Reached</h3>
+                        <h3>3 Communities Reached</h3>
                         <p>Expanding every year through partnerships and volunteer networks.</p>
                     </div>
                 </div>
@@ -111,7 +134,7 @@ function Main() {
                         </div>
 
                         <div>
-                            <h3>Single Mothers Face Heavy Burdens</h3>
+                            <h3>Mothers Face Heavy Burdens</h3>
                             <p>Many mothers struggle to provide stability and opportunity while raising children alone.</p>
                         </div>
 
@@ -142,15 +165,15 @@ function Main() {
 
                     <div className="stats-box">
                         <div>
-                            <h3>15,000+</h3>
+                            <h3>10+</h3>
                             <span>Families Supported</span>
                         </div>
                         <div>
-                            <h3>120+</h3>
+                            <h3>3</h3>
                             <span>Communities Reached</span>
                         </div>
                         <div>
-                            <h3>500+</h3>
+                            <h3>5+</h3>
                             <span>Active Volunteers</span>
                         </div>
                     </div>
@@ -250,9 +273,9 @@ function Main() {
                         {/* Founder 1 */}
                         <div className="founder-card">
 
-                            {/* <div className="founder-image">
-                                <img src={HeroImage} alt="Founder Name" />
-                            </div> */}
+                            <div className="founder-image">
+                                <img src={ProfileIcon} alt="Founder Name" />
+                            </div>
 
                             <div className="founder-info">
                                 <h3>Ladi Akubo</h3>
@@ -268,9 +291,9 @@ function Main() {
                         {/* Founder 2 */}
                         <div className="founder-card">
 
-                            {/* <div className="founder-image">
-                                <img src={HeroImage} alt="Founder Name" />
-                            </div> */}
+                            <div className="founder-image">
+                                <img src={ProfileIcon} alt="Founder Name" />
+                            </div>
 
                             <div className="founder-info">
                                 <h3>Blessing Ojochide</h3>
@@ -288,9 +311,12 @@ function Main() {
             {/* FINAL CTA */}
             <section className="cta">
                 <h2>Together, We Can Transform Generations</h2>
-                <button className="btn-primary large">Support Our Mission</button>
+                <button
+                    className="btn-primary large"
+                    onClick={() =>
+                        handleWhatsApp("Hello, I would like to support your mission.")
+                    }>Support Our Mission</button>
             </section>
-
             <Footer />
         </div>
     );

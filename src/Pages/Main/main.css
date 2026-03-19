@@ -23,6 +23,36 @@ body {
     overflow-x: hidden;
 }
 
+/* SIMPLE TOP LOGO */
+
+.top-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+
+    /* background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+}
+
+
+.top-logo img {
+    width: 140px;
+    /* instead of height */
+    height: auto;
+    object-fit: contain;
+}
+
+.top-logo img {
+    width: 140px;
+    transition: transform 0.3s ease;
+}
+
+.top-logo img:hover {
+    transform: scale(1.05);
+}
+
 /* ================= HERO SECTION ================= */
 
 .hero {
@@ -31,6 +61,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 120px 5%;
+    margin-top: -90px;
     background: linear-gradient(135deg, var(--light), #ffffff);
 }
 
@@ -437,6 +468,9 @@ body {
 
 /* ================= MOBILE FIX ================= */
 @media (max-width: 768px) {
+    .top-logo img {
+        width: 110px;
+    }
 
     .hero {
         flex-direction: column-reverse;
