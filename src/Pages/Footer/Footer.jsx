@@ -4,6 +4,7 @@ import Logo2 from '../../Images/debela@4x.png';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
+import AddressIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 const Footer = () => {
@@ -24,6 +25,15 @@ const Footer = () => {
                 </div>
 
                 {/* CONTACT */}
+                <div className="footersection">
+                    <h4 className="footertitle">Address</h4>
+
+                    <div className="footerrows">
+                        <span className="footerrowsicons mail"><AddressIcon /></span>
+                        <p>shop 001 ground floor, Akubo Ojoma plaza, opposite FIRS, Mohmoh Sani Junction, Old Kutunku, gwagwalada FCT-Abuja</p>
+                    </div>
+                </div>
+
                 <div className="footersection">
                     <h4 className="footertitle">Contact</h4>
 

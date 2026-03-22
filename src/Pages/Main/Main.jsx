@@ -1,12 +1,11 @@
-import React from "react";
-import "./main.css";
+import React, { useState } from "react"; import "./main.css";
 import Footer from "../Footer/Footer";
 import HeroImage from "../../Images/home1.jpg";
 import Logo2 from '../../Images/debela@4x.png'
 import ProfileIcon from '../../Images/profileicon.jpg'
 
 function Main() {
-
+    const [showDonateModal, setShowDonateModal] = useState(false);
     const handleWhatsApp = (message) => {
         const phoneNumber = "2349022242983";
         const encodedMessage = encodeURIComponent(message);
@@ -34,14 +33,15 @@ function Main() {
                     <div className="hero-buttons">
                         <button
                             className="btn-primary"
-                            onClick={() =>
-                                handleWhatsApp("Hello, I would like to support your mission through donation.")
-                            }
-                        >Donate Now</button>
+                            onClick={() => setShowDonateModal(true)}
+                        >
+                            Donate Now
+                        </button>
                         <button
                             className="btn-outline"
                             onClick={() =>
-                                handleWhatsApp("Hi, I’m interested in becoming a volunteer.")
+                                handleWhatsApp(`Hello, I’m interested in volunteering with Dabela Mother & Child Foundation.\n\n
+                           My name is [Your Name], and I would love to support your work in empowering single mothers and nurturing children. Please let me know the available opportunities and how I can get involved.`)
                             }
                         >
                             Become a Volunteer</button>
@@ -314,9 +314,57 @@ function Main() {
                 <button
                     className="btn-primary large"
                     onClick={() =>
-                        handleWhatsApp("Hello, I would like to support your mission.")
-                    }>Support Our Mission</button>
+                        handleWhatsApp(`Hello, I’m interested in partnering with Dabela Foundation.\n\n
+                            My name is [Your Name/Organization], and I would like to explore ways we can collaborate to support single mothers and children. Please share more details on partnership opportunities.`)
+                    }>Partner With Us</button>
             </section>
+            {showDonateModal && (
+                <div className="donate-modal">
+                    <div className="donate-content">
+                        <h2>Support Our Mission</h2>
+                        <p className="donate-sub">
+                            Make a direct bank transfer using the details below
+                        </p>
+
+                        <div className="bank-card">
+
+                            <div className="bank-header">
+                                <span className="bank-name">Zenith Bank</span>
+                                <span className="badge">Bank Transfer</span>
+                            </div>
+
+                            <div className="bank-body">
+                                <div className="bank-row">
+                                    <span>Account Name</span>
+                                    <strong>Dabela Mother and Child Foundation</strong>
+                                </div>
+
+                                <div className="bank-row highlight">
+                                    <span>Account Number</span>
+                                    <strong>1310987906</strong>
+                                </div>
+                            </div>
+
+                            <button
+                                className="copy-btn"
+                                onClick={() => {
+                                    navigator.clipboard.writeText("1310987906");
+                                    alert("Account number copied!");
+                                }}
+                            >
+                                Copy Account Number
+                            </button>
+                        </div>
+
+                        <button
+                            className="btn-outline close-btn"
+                            onClick={() => setShowDonateModal(false)}
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
             <Footer />
         </div>
     );
