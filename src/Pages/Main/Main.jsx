@@ -40,7 +40,7 @@ function Main() {
                         <button
                             className="btn-outline"
                             onClick={() =>
-                                handleWhatsApp(`Hello, I’m interested in volunteering with Dabela Mother & Child Foundation.\n My name is [Your Name], and I would love to support your work in empowering single mothers and nurturing children. Please let me know the available opportunities and how I can get involved.`)
+                                handleWhatsApp(`Hello, I’m interested in volunteering with Dabela Mother & Child Foundation.\n\n My name is [Your Name], and I would love to support your work in empowering single mothers and nurturing children. Please let me know the available opportunities and how I can get involved.`)
                             }
                         >
                             Become a Volunteer</button>
@@ -313,7 +313,7 @@ function Main() {
                 <button
                     className="btn-primary large"
                     onClick={() =>
-                        handleWhatsApp(`Hello, I’m interested in partnering with Dabela Foundation.\n My name is [Your Name/Organization], and I would like to explore ways we can collaborate to support single mothers and children. Please share more details on partnership opportunities.`)
+                        handleWhatsApp(`Hello, I’m interested in partnering with Dabela Foundation.\n\n My name is [Your Name/Organization], and I would like to explore ways we can collaborate to support single mothers and children. Please share more details on partnership opportunities.`)
                     }>Partner With Us</button>
             </section>
             {showDonateModal && (
