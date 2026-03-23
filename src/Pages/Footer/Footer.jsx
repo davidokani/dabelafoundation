@@ -58,7 +58,7 @@ const Footer = () => {
 
                     <div className="footerrows">
                         <span className="footerrowsicons instagram"><InstagramIcon /></span>
-                        <a href="https://www.instagram.com/dabela__foundation" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/dabelafoundation" target="_blank" rel="noreferrer">
                             Instagram
                         </a>
                     </div>
