@@ -7,7 +7,7 @@ import ProfileIcon from '../../Images/profileicon.jpg'
 function Main() {
     const [showDonateModal, setShowDonateModal] = useState(false);
     const handleWhatsApp = (message) => {
-        const phoneNumber = "2349022242983";
+        const phoneNumber = "2348072065768";
         const encodedMessage = encodeURIComponent(message);
         const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
@@ -25,10 +25,10 @@ function Main() {
             <section className="hero">
                 <div className="hero-text">
                     <h1>
-                        Empowering Mothers. Protecting Children. Transforming Futures.
+                        Empowering Mothers. Nurturing Children. Transforming Futures.
                     </h1>
                     <p>
-                        We are committed to providing mentorship, education, economic empowerment, and community support programs to vulnerable mothers and children — creating sustainable futures for families and communities.
+                        We are committed to providing awareness, mentorship, education, economic empowerment, advocacy and community support programs to vulnerable mothers and children. Creating sustainable futures for families and communities.
                     </p>
                     <div className="hero-buttons">
                         <button
@@ -57,7 +57,7 @@ function Main() {
                 <div className="container">
                     <h2>Who We Are</h2>
                     <p>
-                        Dabela Mother and Child Foundation is a nonprofit organization committed to supporting mothers and protecting children growing up in vulnerable family environments.
+                        Dabela Mother and Child Foundation is a nonprofit organization committed to supporting single mothers and nurturing children growing up in a single parent household.
                     </p>
                     <p>
                         We focus on emotional healing, access to care, education, and economic empowerment to help families rebuild stability and hope. Our work is driven by the belief that when mothers are supported and children are protected, entire communities become stronger.
@@ -77,7 +77,7 @@ function Main() {
                         <div className="step">
                             <span>01</span>
                             <h3>Identify</h3>
-                            <p>We work with communities to identify mothers and children facing emotional, economic, and social vulnerability.</p>
+                            <p>We work with communities to identify mothers and thier children facing emotional, economic, and social vulnerability.</p>
                         </div>
 
                         <div className="step">
@@ -95,7 +95,7 @@ function Main() {
                         <div className="step">
                             <span>04</span>
                             <h3>Transform</h3>
-                            <p>Our long-term goal is to break generational cycles of hardship and create stronger futures for children and families.</p>
+                            <p>Our long-term goal is see single mothers and thier children doing better.</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ function Main() {
                     <div>
                         <h2>Where We Work</h2>
                         <p>
-                            We currently operate in Nigeria, working with underserved communities where mothers and children face economic hardship, emotional trauma, and limited access to resources.
+                            We currently operate in Nigeria, working with underserved communities where mothers and their children face economic hardship, emotional trauma, and limited access to resources.
                         </p>
                         <p>
                             Through partnerships with volunteers, educators, healthcare professionals, and community leaders, we aim to create meaningful and lasting impact.
@@ -134,7 +134,7 @@ function Main() {
 
                         <div>
                             <h3>Mothers Face Heavy Burdens</h3>
-                            <p>Many mothers struggle to provide stability and opportunity while raising children alone.</p>
+                            <p>Many single mothers struggle to provide stability and opportunity while raising children alone.</p>
                         </div>
 
                         <div>
@@ -151,8 +151,8 @@ function Main() {
                     <div>
                         <h2>The Urgent Need</h2>
                         <p>
-                            Millions of mothers lack access to prenatal care and essential
-                            medical services. Children in underserved communities face
+                            Millions of single mothers lack access to prenatal care and essential
+                            medical services. Children from single parent-homes, in underserved communities face
                             malnutrition, limited educational access, and unsafe living
                             conditions.
                         </p>
@@ -264,7 +264,7 @@ function Main() {
                 <div className="container">
                     <h2>Our Founders</h2>
                     <p className="section-sub">
-                        Dabela Mother and Child Foundation was inspired by lived experiences and a deep understanding of the challenges many mothers and children face in unstable family environments. With a vision to create programs that empower women, restore dignity, and ensure that children have the support they need to build better futures.
+                        Dabela Mother and Child Foundation was inspired by lived experiences and a deep understanding of the challenges many single mothers and their children face in unstable family environments. With a vision to create programs that empower women, restore dignity, and ensure that children have the support they need to build better futures.
                     </p>
 
                     <div className="founders-grid">
