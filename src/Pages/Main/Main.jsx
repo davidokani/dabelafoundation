@@ -95,7 +95,7 @@ function Main() {
                         <div className="step">
                             <span>04</span>
                             <h3>Transform</h3>
-                            <p>Our long-term goal is see single mothers and thier children doing better.</p>
+                            <p>Our long-term goal is to see single mothers and thier children, doing better.</p>
                         </div>
                     </div>
                 </div>
@@ -151,10 +151,7 @@ function Main() {
                     <div>
                         <h2>The Urgent Need</h2>
                         <p>
-                            Millions of single mothers lack access to prenatal care and essential
-                            medical services. Children from single parent-homes, in underserved communities face
-                            malnutrition, limited educational access, and unsafe living
-                            conditions.
+                            Millions of single mothers lack access to resources and support. Children from single parent-homes in underserved communities face malnutrition, limited educational access, and unsafe living conditions.
                         </p>
                         <p>
                             Without intervention, these challenges continue across generations.
@@ -226,10 +223,10 @@ function Main() {
             {/* STORIES */}
             <section className="section light">
                 <div className="container">
-                    <h2>Stories of Hope</h2>
+                    <h2>Our Mission</h2>
                     <div className="testimonial">
                         <p>
-                            “Our mission is to restore dignity, strengthen families, and ensure that no child grows up without hope.”
+                            “To support single mothers and their children through mentorship, education, empowerment, advocacy and community programs that foster growth stability, and purpose.”
                         </p>
                         <span>— Dabela Mother and Child Foundation</span>
                     </div>
@@ -243,7 +240,7 @@ function Main() {
                     <div className="grid">
                         <div className="card centered">
                             <h3>Donate</h3>
-                            <p>Help us provide life-changing support to mothers and children in vulnerable communities.</p>
+                            <p>Help us provide life-changing support to single mothers and children from single parent homes.</p>
                         </div>
 
                         <div className="card centered">
